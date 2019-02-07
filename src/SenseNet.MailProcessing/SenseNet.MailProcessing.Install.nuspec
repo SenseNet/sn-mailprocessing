@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SenseNet.MailProcessing.Install</id>
+    <version>0.9.0.1</version>
+    <title>sensenet MailProcessing installer</title>
+    <authors>kavics,aniko,lajos,tusmester</authors>
+    <owners>Sense/Net</owners>
+    <licenseUrl>https://github.com/SenseNet/sn-mailprocessing/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-mailprocessing</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>sensenet Mail processing installer contains the install content for the library-only legacy package SenseNet.MailProcessing. This package should be installed only in a single web project.</description>
+    <releaseNotes>See release notes on GitHub.</releaseNotes>
+    <copyright>Copyright © Sense/Net Inc.</copyright>
+    <tags>sensenet mail pop3 exchange</tags>
+    <dependencies>
+      <dependency id="SenseNet.Services.Install" version="7.5.1.5" />
+      <dependency id="SenseNet.Workflow.Install" version="7.2.1.1" />
+      <dependency id="SenseNet.SnAdmin" version="1.4.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\nuget\readme.txt" target="" />
+    <file src="..\nuget\content\**" target="content" />
+  </files>
+</package>

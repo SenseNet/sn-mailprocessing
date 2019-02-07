@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SenseNet.MailProcessing</id>
+    <version>0.9.0.1</version>
+    <title>sensenet Mail processing component</title>
+    <authors>kavics,tusmester</authors>
+    <owners>Sense/Net</owners>
+    <licenseUrl>https://github.com/SenseNet/sn-mailprocessing/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-mailprocessing</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Legacy mail processing component for sensenet that integrates lists with Exchange or a Pop3 server.</description>
+    <releaseNotes>See release notes on GitHub.</releaseNotes>
+    <copyright>Copyright © Sense/Net Inc.</copyright>
+    <tags>sensenet mail pop3 exchange</tags>
+    <dependencies>
+      <dependency id="OpenPop.NET" version="2.0.6.1120" />
+      <dependency id="Microsoft.Exchange.WebServices" version="2.2" />
+      <dependency id="Microsoft.Identity.Model.Extensions" version="2.0.1459.0" />
+      <dependency id="Microsoft.IdentityModel" version="6.1.7600.16394" />
+      <dependency id="SenseNet.Services" version="7.5.1.5" />
+      <dependency id="SenseNet.Workflow" version="7.2.1.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\SenseNet.MailProcessing.*" target="lib\net461" />
+  </files>
+</package>
