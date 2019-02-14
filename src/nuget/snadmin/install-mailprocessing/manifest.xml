@@ -1,10 +1,10 @@
 <Package type='Install'>
   <Id>SenseNet.MailProcessing</Id>
   <Description>sensenet MailProcessing</Description>
-  <ReleaseDate>2019-02-06</ReleaseDate>
-  <Version>0.9.0.1</Version>
+  <ReleaseDate>2019-02-14</ReleaseDate>
+  <Version>0.9.0.2</Version>
   <Dependencies>
-    <Dependency id='SenseNet.Services' minVersion='7.5.1.5' />
+    <Dependency id='SenseNet.Services' minVersion='7.5.1.4' />
     <Dependency id='SenseNet.Workflow' minVersion='7.2.1.1' />
     <Dependency id='SenseNet.Workspaces' minVersion='7.3.0' />
   </Dependencies>
