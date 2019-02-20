@@ -52,17 +52,17 @@
     <Reference Include="OpenPop, Version=2.0.6.1120, Culture=neutral, PublicKeyToken=6bdb97f144b7efc8, processorArchitecture=MSIL">
       <HintPath>..\packages\OpenPop.NET.2.0.6.1120\lib\net40\OpenPop.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.BlobStorage, Version=7.3.2.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.BlobStorage.7.3.2.1\lib\netstandard2.0\SenseNet.BlobStorage.dll</HintPath>
+    <Reference Include="SenseNet.BlobStorage, Version=7.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.BlobStorage.7.3.3\lib\netstandard2.0\SenseNet.BlobStorage.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.Common, Version=7.2.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Common.7.2.0.2\lib\netstandard2.0\SenseNet.Common.dll</HintPath>
+    <Reference Include="SenseNet.Common, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.Common.7.3.0\lib\netstandard2.0\SenseNet.Common.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.ContentRepository, Version=7.5.1.4, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Services.7.5.1.4\lib\net461\SenseNet.ContentRepository.dll</HintPath>
+    <Reference Include="SenseNet.ContentRepository, Version=7.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.ContentRepository.7.6.0\lib\netstandard2.0\SenseNet.ContentRepository.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.Preview, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Preview.7.0.0\lib\net451\SenseNet.Preview.dll</HintPath>
+    <Reference Include="SenseNet.Preview, Version=7.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.Preview.7.1.0\lib\netstandard2.0\SenseNet.Preview.dll</HintPath>
     </Reference>
     <Reference Include="SenseNet.Search, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SenseNet.Search.2.1.0\lib\netstandard2.0\SenseNet.Search.dll</HintPath>
@@ -70,14 +70,14 @@
     <Reference Include="SenseNet.Security, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SenseNet.Security.4.0.0\lib\netstandard2.0\SenseNet.Security.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.Services, Version=7.5.1.4, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Services.7.5.1.4\lib\net461\SenseNet.Services.dll</HintPath>
+    <Reference Include="SenseNet.Services, Version=7.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.Services.7.6.0\lib\net461\SenseNet.Services.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.Storage, Version=7.5.1.4, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Services.7.5.1.4\lib\net461\SenseNet.Storage.dll</HintPath>
+    <Reference Include="SenseNet.Storage, Version=7.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.ContentRepository.7.6.0\lib\netstandard2.0\SenseNet.Storage.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.TaskManagement.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.TaskManagement.Core.1.1.0.0\lib\net45\SenseNet.TaskManagement.Core.dll</HintPath>
+    <Reference Include="SenseNet.TaskManagement.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.TaskManagement.Core.2.0.0\lib\netstandard2.0\SenseNet.TaskManagement.Core.dll</HintPath>
     </Reference>
     <Reference Include="SenseNet.TokenAuthentication, Version=7.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SenseNet.TokenAuthentication.7.4.0\lib\netstandard2.0\SenseNet.TokenAuthentication.dll</HintPath>
@@ -85,11 +85,11 @@
     <Reference Include="SenseNet.Tools, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SenseNet.Tools.3.1.0\lib\netstandard2.0\SenseNet.Tools.dll</HintPath>
     </Reference>
-    <Reference Include="SenseNet.Workflow, Version=7.2.1.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Workflow.7.2.1.1\lib\net461\SenseNet.Workflow.dll</HintPath>
+    <Reference Include="SenseNet.Workflow, Version=7.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SenseNet.Workflow.7.2.2\lib\net461\SenseNet.Workflow.dll</HintPath>
     </Reference>
     <Reference Include="SenseNet.Workflow.Design, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SenseNet.Workflow.7.2.1.1\lib\net461\SenseNet.Workflow.Design.dll</HintPath>
+      <HintPath>..\packages\SenseNet.Workflow.7.2.2\lib\net461\SenseNet.Workflow.Design.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Activities" />
@@ -106,6 +106,9 @@
       <HintPath>..\packages\System.Diagnostics.EventLog.4.5.0\lib\net461\System.Diagnostics.EventLog.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.2.4\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
@@ -149,7 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="SenseNet.MailProcessing.Install.nuspec" />
     <None Include="SenseNet.MailProcessing.nuspec" />
   </ItemGroup>
