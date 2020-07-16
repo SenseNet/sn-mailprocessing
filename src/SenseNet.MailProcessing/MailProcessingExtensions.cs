@@ -1,4 +1,5 @@
 ﻿using SenseNet.ContentRepository.Mail;
+using SenseNet.MailProcessing;
 using SenseNet.Tools;
 
 // ReSharper disable once CheckNamespace
