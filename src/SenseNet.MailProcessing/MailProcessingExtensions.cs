@@ -1,7 +1,8 @@
 ﻿using SenseNet.ContentRepository.Mail;
 using SenseNet.Tools;
 
-namespace SenseNet.MailProcessing
+// ReSharper disable once CheckNamespace
+namespace SenseNet.Extensions.DependencyInjection
 {
     public static class MailProcessingExtensions
     {
