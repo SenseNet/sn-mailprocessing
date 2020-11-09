@@ -1,3 +1,13 @@
+# Legacy feature alert
+
+Please note that this is a legacy feature which is no longer supported on the latest (and greatest) sensenet version.
+
+# sensenet as a service (SNaaS) - use sensenet from the cloud
+
+For a monthly subscription fee, we store all your content and data, relieving you of all maintenance-related tasks and installation, ensuring easy onboarding, easy updates, and patches.
+
+https://www.sensenet.com/pricing
+
 # Mail processing component for the sensenet platform
 Legacy package for handling content list mail server integration in sensenet. It is able to connect a sensenet Content List or Document Library to an **Exchange** or **POP3** mailbox, pull emails sent to the configured mailbox and save emails and attachments to the library.
 
